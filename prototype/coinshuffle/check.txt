@@ -1,0 +1,184 @@
+DEBUG:root:[6, 6, 6, 6, 6]
+DEBUG:root:['time', 'python', 'run_shuffle.py', '0', '1024', '6903', '5', 'localhost', '50000', 'localhost', '50000', 'localhost', '50004', 'localhost', '50001', '6', '6']
+DEBUG:root:['time', 'python', 'run_shuffle.py', '1', '1024', '6903', '5', 'localhost', '50001', 'localhost', '50000', 'localhost', '50000', 'localhost', '50002', '6', '6']
+DEBUG:root:['time', 'python', 'run_shuffle.py', '2', '1024', '6903', '5', 'localhost', '50002', 'localhost', '50000', 'localhost', '50001', 'localhost', '50003', '6', '6']
+DEBUG:root:['time', 'python', 'run_shuffle.py', '3', '1024', '6903', '5', 'localhost', '50003', 'localhost', '50000', 'localhost', '50002', 'localhost', '50004', '6', '6']
+DEBUG:root:['time', 'python', 'run_shuffle.py', '4', '1024', '6903', '5', 'localhost', '50004', 'localhost', '50000', 'localhost', '50003', 'localhost', '50000', '6', '6']
+INFO:root:Node started (id=0, addr=localhost:50000, key_len=1024, round_id=6903, n_nodes=5)
+DEBUG:root:(NODE 0, PHZ 0 - localhost:50000) Opening leader sockets
+DEBUG:root:Setting up server socket
+DEBUG:root:Socket listening at localhost:50000
+DEBUG:root:Listening...
+INFO:root:Node started (id=1, addr=localhost:50001, key_len=1024, round_id=6903, n_nodes=5)
+DEBUG:root:(NODE 1, PHZ 0 - localhost:50001) Opening client socket to leader
+DEBUG:root:Trying to connect to (localhost, 50000)
+DEBUG:root:Listening...
+DEBUG:root:('127.0.0.1', 43822)
+DEBUG:root:Sending message of length 5
+DEBUG:root:(NODE 1, PHZ 0 - localhost:50001) Opened client socket to leader
+INFO:root:Generating keypair, please wait...
+INFO:root:Node started (id=2, addr=localhost:50002, key_len=1024, round_id=6903, n_nodes=5)
+INFO:root:Node started (id=4, addr=localhost:50004, key_len=1024, round_id=69DEBUG:root:TryiDEBUG:root:('127.0.0.1', 43823)
+INFO:root:Node started (id=3, addr=locaDEBUG:root:(NODE 2, PHZ 0 - localhost:50002) Opened client socket to leader
+INFO:root:Generating keypair, please wait...
+DEBUG:root:(NODE 3, PHZ 0 - localhost:50003) Opening client socket to leader
+DEBUG:root:Trying to connect to (localhost, 50000)
+DEBUG:root:Got all messages, closing socket
+DEBUG:root:Setting up server socket
+DEBUG:root:('127.0.0.1', 43824)
+DEBUG:root:Sending message of length 5
+DEBUG:root:('127.0.0.1', 43825)
+DEBUG:root:Sending message of length 5
+DEBUG:root:(NODE 3, PHZ 0 - localhost:50003) Opened client socket to leader
+INFO:root:Generating keypair, please wait...
+DEBUG:root:Got 4 messages
+DEBUG:root:(NODE 0, PHZ 0 - localhost:50000) 1
+DEBUG:root:(NODE 0, PHZ 0 - localhost:50000) 2
+DEBUG:root:(NODE 0, PHZ 0 - localhost:50000) 4
+DEBUG:root:(NODE 0, PHZ 0 - localhost:50000) 3
+DEBUG:root:(NODE 0, PHZ 0 - localhost:50000) Opened sockets to all nodes
+INFO:root:Generating keypair, please wait...
+DEBUG:root:Sending message of length 736
+DEBUG:root:Sending message of length 736
+DEBUG:root:Sending message of length 736
+DEBUG:root:(NODE 0, PHZ 1 - localhost:50000) Leader starting phase 1
+DEBUG:root:Setting up server socket
+DEBUG:root:Sending message of length 736
+DEBUG:root:Got 4 messages
+DEBUG:root:(NODE 0, PHZ 1 - localhost:50000) Unpickled msg from node 1
+DEBUG:root:(NODE 0, PHZ 1 - localhost:50000) Unpickled msg from node 2
+DEBUG:root:(NODE 0, PHZ 1 - localhost:50000) Unpickled msg from node 3
+DEBUG:root:(NODE 0, PHZ 1 - localhost:50000) Unpickled msg from node 4
+INFO:root: (NODE 0, PHZ 1 - localhost:50000) Leader has all public keys
+DEBUG:root:Sending message of length 3572
+DEBUG:root:Sending message of length 3572
+DEBUG:root:Sending message of length 3572
+DEBUG:root:Sending message of length 3572
+INFO:root: (NODE 0, PHZ 1 - localhost:50000) Leader sent all public keys
+INFO:root: (NODE 0, PHZ 2 - localhost:50000) Starting phase 2
+DEBUG:root:(NODE 0, PHZ 2 - localhost:50000) Orig len: 21
+DEBUG:root:(NODE 0, PHZ 2 - localhost:50000) Cipher len: 160
+DEBUG:root:(NODE 0, PHZ 2 - localhost:50000) Cipher len: 304
+DEBUG:root:(NODE 0, PHZ 2 - localhost:50000) Cipher len: 448
+DEBUG:root:(NODE 0, PHZ 2 - localhost:50000) Cipher len: 592
+DEBUG:root:(NODE 0, PHZ 2 - localhost:50000) Cipher len: 736
+INFO:root: (NODE 4, PHZ 1 - localhost:50004) Unpickled public DEBUG:root:(NODE 0, PHZ 3 - localhost:50000) Shuffling len = 1
+INFO:root: (NODE 2, PHZ 1 - localhost:50002) Unpickled public keys
+INFO:root: (NODE 1, PHZ 1 - localhost:50001) Unpickled public keys
+INFO:root: (NODE 3, PHZ 1 - localhost:50003) Got keys from leader!
+INFO:root: (NODE 3, PHZ 2 - localhost:50003) Starting phase 2
+DEBUG:root:(NODE 3, PHZ 2 - localhost:50003) Orig len: 21
+DEBUG:root:(NODE 3, PHZ 2 - localhost:50003) Cipher len: 160
+DEBUG:root:(NODE 3, PHZ 2 - localhost:50003) Cipher len: 304
+INFO:root: (NODE 3, PHZ 3 - localhost:50003) Starting phase 3
+DEBUG:root:(NODE 3, PHZ 3 - localhost:50003) Node waiting for set oDEBUG:rootDEBUG:root:Setting up server socket at localhost:50INFODEBUG:root:Setting up DEBUG:root:LisDEBUG:root:Socket listening at localhost:50003
+DEBUG:root:Listening...
+ waiting for set of ciphers
+DEBUG:root:Setting up server socket at localhost:50002
+DEBUG:root:Setting up server socket
+DEBUG:root:(NODE 0, PHZ 3 - localhost:50000) ShDEBUG:root:Listening...
+DEBUG:root:(NODE 0, PHZ 3 - localhost:50000) Sending ciphers to node 1
+DEBUG:root:Sending message of length 765
+DEBUG:root:(NODE 1, PHZ 3 - localhost:50001) Node 1 got ciphers from leader
+DEBUG:root:(NODE 1, PHZ 3 - localhost:50001) Shuffling len = 2
+DEBUG:root:(NODE 1, PHZ 3 - localhost:50001) Shuffled ciphers
+DEBUG:root:Trying to connect to localhost:50002 (msg len: 1089)
+DEBUG:root:Trying to connect to (localhost, 50002)
+DEBUG:root:Got all messages, closing socket
+DEBUG:root:Set up server socket at localhost:50002
+DEBUG:root:('127.0.0.1', 49404)
+DEBUG:root:Connected to localhost:50002
+DEBUG:root:Sending message of length 1089
+DEBUG:root:Closing socket
+DEBUG:root:(NODE 2, PHZ 3 - localhost:50002) Got set of ciphers
+DEBUG:root:(NODE 2, PHZ 3 - localhost:50002) Shuffling len = 3
+DEBUG:root:Closed socket to server
+DEBUG:root:(NODE 1, PHZ 3 - localhost:50001) Sent set of ciphers
+DEBUG:root:(NODE 2, PHZ 3 - localhost:50002) Shuffled ciphers
+DEBUG:root:Trying to connect to localhost:50003 (msg len: 1125)
+DEBUG:root:Trying to connect to (localhost, 50003)
+DEBUG:root:Got all messages, closing socket
+DEBUG:root:Set up server socket at localhost:50003
+DEBUG:root:('127.0.0.1', 50668)
+DEBUG:root:Connected to localhost:50003
+DEBUG:root:Sending message of length 1125
+DEBUG:root:Closing socket
+DEBUG:root:(NODE 3, PHZ 3 - localhost:50003) Got set of ciphers
+DEBUG:root:(NODE 3, PHZ 3 - localhost:50003) Shuffling len = 4
+DEBUG:root:Closed socket to server
+DEBUG:root:(NODE 2, PHZ 3 - localhost:50002) Sent set of ciphers
+DEBUG:root:(NODE 3, PHZ 3 - localhost:50003) Shuffled ciphers
+DEBUG:root:Trying to connect to localhost:50004 (msg len: 873)
+DEBUG:root:Trying to connect to (localhost, 50004)
+DEBUG:root:Got all messages, closing socket
+DEBUG:root:Set up server socket at localhost:50004
+DEBUG:root:('127.0.0.1', 39743)
+DEBUG:root:Connected to localhost:50004
+DEBUG:root:Sending message of length 873
+DEBUG:root:Closing socket
+DEBUG:root:(NODE 4, PHZ 3 - localhost:50004) Got set of ciphers
+DEBUG:root:(NODE 4, PHZ 3 - localhost:50004) Shuffling len = 5
+DEBUG:root:Closed socket to server
+DEBUG:root:(NODE 3, PHZ 3 - localhost:50003) Sent set of ciphers
+DEBUG:root:(NODE 4, PHZ 3 - localhost:50004) Shuffled ciphers
+DEBUG:root:(NODE 4, PHZ 3 - localhost:50004) Sending ciphers to leader
+DEBUG:root:Sending message of length 358
+DEBUG:root:(NODE 0, PHZ 3 - localhost:50000) Got ciphers from other nodes len = 5
+DEBUG:root:(NODE 0, PHZ 4 - localhost:50000) Leader broadcasting ciphers to all nodes
+DEBUG:root:Sending message of length 358
+INFO:root: (NODE 1, PHZ 4 - localhost:50001) Found my ciphertext in set
+DEBUG:root:(NODE 1, PHZ 4 - localhost:50001) Go = TRUE
+INFO:root: (NODE 1, PHZ 5 - localhost:50001) Starting phase 5
+DEBUG:root:Sending message of length 358
+INFO:root: (NODE 2, PHZ 4 - localhost:50002) Found my ciphertext in set
+DEBUG:root:(NODE 2, PHZ 4 - localhost:50002) Go = TRUE
+INFO:root: (NODE 2, PHZ 5 - localhost:50002) Starting phase 5
+DEBUG:root:Sending message of length 358
+INFO:root: (NODE 3, PHZ 4 - localhost:50003) Found my ciphertext in set
+DEBUG:root:(NODE 3, PHZ 4 - localhost:50003) Go = TRUE
+INFO:root: (NODE 3, PHZ 5 - localhost:50003) Starting phase 5
+DEBUG:root:Sending message of length 358
+INFO:root: (NODE 4, PHZ 4 - localhost:50004) Found my ciphertext in set
+DEBUG:root:(NODE 4, PHZ 4 - localhost:50004) Go = TRUE
+INFO:root: (NODE 4, PHZ 5 - localhost:50004) Starting phase 5
+DEBUG:root:Sending message of length 456
+DEBUG:root:Sending message of length 456
+DEBUG:root:Sending message of length 456
+DEBUG:root:(NODE 4, PHZ 5 - localhost:50004) Sent signature to leader
+DEBUG:root:Got 4 messages
+DEBUG:root:(NODE 0, PHZ 5 - localhost:50000) Received all signatures from participants
+DEBUG:root:Sending message of length 1420
+DEBUG:root:(NODE 1, PHZ 5 - localhost:50001) Received signature list
+INFO:root: (NODE 1, PHZ 5 - localhost:50001) Found my signature in set
+DEBUG:root:(NODE 1, PHZ 5 - localhost:50001) Sign = TRUE
+DEBUG:root:(NODE 1, PHZ 5 - localhost:50001) Finished in 2.69601 seconds
+CRITICAL:root:(NODE 1, PHZ 5 - localhost:50001) SUCCESSROUND:SHUFFLE, RID:6903, NNOD:5, WALLTIME:2.69696, USR:0.17201, SYS:0.30802
+	,36,36,36,36,36
+DEBUG:root:(NODE 1, PHZ 5 - localhost:50001) Closing sockets
+DEBUG:root:(NODE 1, PHZ 5 - localhost:50001) ('127.0.0.1', 43822)
+DEBUG:root:Sending message of length 1420
+DEBUG:root:Sending message of length 1420
+DEBUG:root:Sending message of length 1420
+DEBUG:root:(NODE 0, PHZ 5 - localhost:50000) All signatures sent to participants
+CRITICAL:root:(NODE 0, PHZ 5 - localhost:50000) Leader: Bitcoin transaction finished
+DEBUG:root:(NODE 0, PHZ 5 - localhost:50000) Sign = TRUE
+DEBUG:root:(NODE 0, PHZ 5 - localhost:50000) Finished in 2.90011 seconds
+CRITICAL:root:(NODE 0, PHZ 5 - localhost:50000) SUCCESSROUND:SHUFFLE, RID:6903, NNOD:5, WALLTIME:2.90116, USR:0.16801, SYS:0.380024
+	,36,36,36,36,36
+DEBUG:root:(NODE 0, PHZ 5 - localhost:50000) Closing sockets
+DEBUG:root:(NODE 0, PHZ 5 - localhost:50000) ('127.0.0.1', 50000)
+DEBUG:root:(NODE 0, PHZ 5 - localhost:50000) ('127.0.0.1', 50000)
+DEBUG:root:(NODE 2, PHZ 5 - localhost:50002) Received signature liDEBINFO:root: (NODE 2, PHZ 5 - localhost:50002) Found my signature inDEBUGDEBUG:root:(NODE 2, PHZ 5 - localhost:50002) Sign = TRUE
+DEBUG:root:(NODE 2, PHZ 5 - localhost:50002) Finished in 2.61485 seconds
+DEBUG:root:(NODE 4, PHZ 5 - localhost:50004) Closing sockets
+DEBUG:root:(NODE 2, PHZ 5 - localhost:50002) Closing sockets
+DEBUG:root:(NODE 2, PHZ 5 - localhost:50002) ('127.0.0.1', 43823)
+DEBUG:root:(NODE 3, PHZ 5 - localhost:50003) Closing sockets
+DEBUG:root:(NODE 3, PHZ 5 - localhost:50003) ('127.0.0.1', 43825)
+0.30user 0.75system 0:05.52elapsed 19%CPU (0avgtext+0avgdata 42448maxresident)k
+0inputs+152outputs (0ma0or+2989minor)pagefaults 0swap0
+05.49elapsed 20%CPU (0avgtext+0avgdata 42448maxresident)k
+0inputs+152outputs (0major+2990minor)pagefaults 0swaps
+)k
+0inputs+152outputs (0major+2989minor)pagefaults 0swaps
+or+2988minor)pagefaults 0swaps

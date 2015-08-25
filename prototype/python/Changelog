@@ -1,0 +1,5 @@
+2014-01-20: Using ECDSA for signatures and ECIES for signatures now.
+
+2014-04-15: Added BIG FAT WARNING in beginning of README file 
+
+(These are the only change since 2014-04-12.)
